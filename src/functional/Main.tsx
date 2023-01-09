@@ -5,6 +5,7 @@ type MainProps = {
     num:number
   };
 
+  
 const Main = ({setNum,num}:MainProps) => {
     const  getRandomInt=() : number=>{
         let min = Math.ceil(1);
