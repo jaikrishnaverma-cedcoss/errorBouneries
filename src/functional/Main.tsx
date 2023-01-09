@@ -5,7 +5,7 @@ type MainProps = {
     num:number
   };
 
-  
+
 const Main = ({setNum,num}:MainProps) => {
     const  getRandomInt=() : number=>{
         let min = Math.ceil(1);
@@ -21,6 +21,7 @@ const Main = ({setNum,num}:MainProps) => {
       <button className='button1' onClick={()=>setNum(getRandomInt())}>Number is :{num}</button>
     )
 }
+
 
 export default Main
 
